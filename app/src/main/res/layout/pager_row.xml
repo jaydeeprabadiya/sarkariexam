@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <CheckBox
+            android:id="@+id/cb_start_muted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Start video ads muted"
+            android:textColor="@color/colorBlack"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_title"
+            android:orientation="vertical"
+
+
+            >
+
+
+            <ImageView
+                android:id="@+id/iv_artical"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_no_img" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:layout_toLeftOf="@+id/tv_viewcount"
+                    android:src="@drawable/ic_view"
+                    android:visibility="gone"></ImageView>
+
+
+                <TextView
+                    android:id="@+id/tv_viewcount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:text="324K"
+                    android:textSize="@dimen/_12sdp"
+                    android:visibility="gone"></TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="Nature, in the broadest sense"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="दिल्ली में छाया मफलरमैन. रुझानों में आम आदमी पार्टी की शानदार बढ़त के बाद एक बार फिर से अरविंद केजरीवाल का मफलर चर्चा में है. AAP के ट्विटर हैंडल से नन्हे केजरीवाल की ये फोटो शेयर की गई है. इस बच्चे का परिवार अरविंद केजरीवाल के प्रशंसक हैं"
+                android:textSize="18sp"></TextView>
+
+            <!--            <com.codesgood.views.JustifiedTextView-->
+            <!--                android:id="@+id/tv_que"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_below="@id/rl_title"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="@dimen/_5sdp"-->
+            <!--                android:layout_marginRight="@dimen/_10sdp"-->
+            <!--                android:autoSizeTextType="uniform"-->
+            <!--                android:text="िल्ली में छाया मफलरमैन. रुझानों में आम आदमी पार्टी की शानदार बढ़त के बाद एक बार फिर से अरविंद केजरीवाल का मफलर चर्चा में है. AAP के ट्विटर हैंडल से नन्हे केजरीवाल की ये फोटो शेयर की गई है. इस बच्चे का परिवार अरविंद केजरीवाल के प्रशंसक हैं"-->
+            <!--                android:textSize="18sp"-->
+            <!--                />-->
+
+
+            <TextView
+                android:id="@+id/tv_jobcontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="5dp"
+                android:maxLength="180"
+                android:text="जिन उम्मीदवारों ने SSC CGL भर्ती 2020 के तहत विभिन्न पदों के लिए आवेदन किया है, उन्हें परीक्षा शुरू होने से पहले SSC CGL टीयर I एडमिट कार्ड 2020 डाउनलोड करना होगा।"
+                android:textSize="18sp"
+                android:visibility="gone"></TextView>
+
+
+            <TextView
+                android:id="@+id/tv_clickmore"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#4285f4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="डिटेल देखे"
+                android:textColor="#fff"
+                android:textSize="@dimen/_18sdp"
+
+
+                />
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <LinearLayout
+                android:id="@+id/ll_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/llShare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/llLike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/llShare"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ivLikeIcon"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/ic_heart" />
+
+                            <TextView
+                                android:id="@+id/tvLikeCount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="3dp"
+                                android:text="2K"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="लाइक"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="13sp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_toRightOf="@id/llLike"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/llComment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ivComment"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/ic_commentwhite" />
+
+                            <TextView
+                                android:id="@+id/tvCommentCount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="3dp"
+                                android:text="2K"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="कमेंट्स"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="13sp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_wastapp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/whatsapp_icon"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/tvShareCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="14sp"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="59dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/llLike"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/iv_save"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_newsave" />
+
+                        <TextView
+                            android:id="@+id/tv_save"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="शेयर"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="13sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/ad_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:layout_alignParentBottom="true" />
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ad_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/_50sdp"
+            ads:adSize="FULL_WIDTHx50"
+            android:visibility="gone"
+            ads:adUnitId="@string/ad_baner_id"
+
+            ></com.google.android.gms.ads.AdView>
+
+        <LinearLayout
+            android:id="@+id/ll_template"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity"
+            tools:showIn="@layout/activity_main"
+            android:visibility="invisible"
+            >
+
+            <com.google.android.ads.nativetemplates.TemplateView
+                android:id="@+id/adviews"
+                app:gnt_template_type="@layout/gnt_medium_template_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/rl_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_shortname"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:text="DE"
+        android:textAllCaps="true"
+        android:textSize="@dimen/_15sdp"
+        android:background="@drawable/drawable_normal_state"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:layout_gravity="center_horizontal"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/tv_statename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_shortname"
+        android:text="jammu and kashmir"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+
+        ></TextView>
+
+
+
+
+
+</LinearLayout>

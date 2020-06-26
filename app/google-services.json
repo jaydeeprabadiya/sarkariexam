@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "653929324110",
+    "firebase_url": "https://sarkariexammobile-app.firebaseio.com",
+    "project_id": "sarkariexammobile-app",
+    "storage_bucket": "sarkariexammobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653929324110:android:fe449b348e3eafed",
+        "android_client_info": {
+          "package_name": "com.sarkarinaukri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653929324110-n9pscndskbhmaqnqn4icbhu588hn7udh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sarkarinaukri",
+            "certificate_hash": "24ab4962715d83d0cfeb58c8b493b42d7bc102d7"
+          }
+        },
+        {
+          "client_id": "653929324110-4j6rmiop8ehd2spulhbif2gftf8dlqo3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sarkarinaukri",
+            "certificate_hash": "a88aac56bf3dab7b2a8070b22adf24e2050b2883"
+          }
+        },
+        {
+          "client_id": "653929324110-i2urcf3srdldqfkhakm321gd96ar92qc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sarkarinaukri",
+            "certificate_hash": "3bdaa040ce155394e55e9c4defef0cdfc28acc3e"
+          }
+        },
+        {
+          "client_id": "653929324110-cd8h66e2rk27vk6vc00asb3mimiofmvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrInjOEg80iHv5gevGiZiL0llRo9zIidE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653929324110-cd8h66e2rk27vk6vc00asb3mimiofmvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

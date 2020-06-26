@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlParentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llOption"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/black_circle"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textColor="@color/colorBlack"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/llOption"
+        android:background="@drawable/rounded_grey_add_drawable"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="Option"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/ibCancel"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/cancel_vector_icon"
+        android:visibility="visible"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

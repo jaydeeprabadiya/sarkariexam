@@ -1,0 +1,32 @@
+<RelativeLayout android:id="@+id/llLabel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/rectangle_blue_drawable"
+    android:orientation="vertical"
+    android:visibility="visible"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <com.sarkarinaukri.helperClass.TextViewArial
+            android:id="@+id/tvLabel"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Saved Jobs"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_below="@id/tvLabel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:paddingBottom="60dp"
+            android:clipToPadding="false" />
+
+</RelativeLayout>

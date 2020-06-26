@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2591FF</color>
+    <color name="colorPrimaryDark">#2591FF</color>
+    <color name="colorAccent">#c3c3c3</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDarkBlack">#1C2429</color>
+    <color name="colorRed">#B7FD4848</color>
+    <color name="colorPrimaryGreen">#904BB906</color>
+    <color name="colorPrimaryDarkGreen">#904BB906</color>
+    <color name="red">#ff0000</color>
+
+    <color name="windows_blue">#3495af</color>
+    <color name="navy">#021430</color>
+
+
+    <color name="player_theme_color_translucent">#9939C5BB</color>
+    <color name="player_background_color">#96000000</color>
+
+    <color name="dkplayer_theme_color_translucent">#9939C5BB</color>
+    <color name="dkplayer_background_color">#4D000000</color>
+
+    <color name="drawable_totalconfirm">#7ecdd2</color>
+    <color name="drawable_totalactive">#ff8f8e</color>
+    <color name="drawable_totalrecover">#92ff80</color>
+    <color name="drawable_totaldeath">#b9b5b4</color>
+    <color name="drawable_state">#d5d5d5</color>
+    <color name="drawable_live">#9c0900</color>
+    <color name="drawable_live_yellow">#ffaf2b</color>
+    <color name="draeable_selected_state">#a6a6a6</color>
+    <color name="covidlive">#4f4c4c</color>
+
+
+
+
+</resources>

@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+attr? scaleType
+id center
+id centerBottom
+id centerBottomCrop
+id centerCrop
+id centerInside
+id centerTop
+id centerTopCrop
+id endInside
+id fitCenter
+id fitEnd
+id fitStart
+id fitXY
+id leftBottom
+id leftBottomCrop
+id leftCenter
+id leftCenterCrop
+id leftTop
+id leftTopCrop
+id none
+id rightBottom
+id rightBottomCrop
+id rightCenter
+id rightCenterCrop
+id rightTop
+id rightTopCrop
+id startInside
+string app_name
+styleable scaleStyle scaleType
