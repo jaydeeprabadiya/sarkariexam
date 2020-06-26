@@ -241,6 +241,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener, Conn
                 {
                     PreferenceHelper.WriteSharePrefrence(getActivity(), Constant.ADS, "false");
                 }
+
+
+
             }
         });
         recyclerViewResult.setAdapter(dataListHomeResultAdapter);
